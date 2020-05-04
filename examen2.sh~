@@ -1,0 +1,21 @@
+read -p "Introduce un nombre de una ciudad: " ciudad
+
+contador=0
+
+if [ $ciudad -ne "Barcelona" ]; then
+    echo "No existe ninguna mujer ni ningun hombre de esta ciudad"
+    exit
+elif [ $ciudad -ne "Madrid" ]; then
+    echo "No existe ninguna mujer ni ningun hombre de esta ciudad"
+    exit
+elif [ $ciudad -ne "Albacete" ]; then
+    echo "No existe ninguna mujer ni ningun hombre de esta ciudad"
+    exit
+elif [ $ciudad -ne "Valencia" ]; then
+    echo "No existe ninguna mujer ni ningun hombre de esta ciudad"
+    exit
+elif [ $ciudad -ne "Castellon" ]; then
+    echo "No existe ninguna mujer ni ningun hombre de esta ciudad"
+    exit
+fi
+    
